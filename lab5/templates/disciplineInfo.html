@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Discipline INFO</title>
+</head>
+<body>
+    {% for prog in ed_prog %}
+        Номер программы: {{prog.id}} <br>
+        Название программы: {{prog.name}} <br>
+        Дисциплина: {{prog.discipline}} <br>
+            {% for k,v in prog.year.items %}
+                Год обучения: {{k}}<br>
+                Кол-во групп: {{v|length}}<br>
+            {% endfor %}
+        <br><br>
+    {% endfor %}
+</body>
+</html>

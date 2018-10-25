@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Cathedr INFO</title>
+    <style>
+        ul, ol {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+{% for cathedr in cathedrs %}
+ID: {{cathedr.id}}<br>
+Кафедра: {{cathedr.name}}<br>
+Зав. кафедры: {{cathedr.head.name}} ({{cathedr.head.tab_number}})<br>
+Преподаватели:
+<ol>
+    {% for teacher in cathedr.teachers %}
+    <li>{{teacher.name}} ({{teacher.tab_number}}, {{teacher.position}})</li>
+    {% endfor %}
+</ol>
+Образовательные программы:
+<ul>
+    {% for ed_prog in cathedr.education_programs %}
+    <li>{{ed_prog.id}} ({{ed_prog.name}}, {{ed_prog.discipline}})</li>
+    {% endfor %}
+
+</ul>
+<br><br>
+{% endfor %}
+</body>
+</html>

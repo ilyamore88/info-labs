@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>University Structure</title>
+    <style>
+        html {
+            font-family: monospace;
+        }
+
+        pre {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+
+Университет ({{ data.rector }})<br>
+|_Административные подразделения: <br>
+{% for unit in data.units.administration %}
+    <pre>| |_{{ unit.name }} ({{ unit.id }}, {{ unit.head.name }}){% if not forloop.last %}<br>{% endif %}</pre>
+{% endfor %}
+<br>
+| <br>
+|_Научно-образовательные подразделения: <br>
+{% for mega_fac in data.units.education %}
+    {% if not forloop.last %}
+        <pre>  |_{{ mega_fac.name }} ({{ mega_fac.id }}, {{ mega_fac.head.name }})<br></pre>
+        {% for fac in mega_fac.faculties %}
+            <pre>  |  |_{{ fac.name }} ({{ fac.id }}, {{ fac.head.name }}) <br></pre>
+            {% for cafedra in fac.cathedr %}
+                <pre>  |  | |_{{ cafedra.name }} ({{ cafedra.id }}, {{ cafedra.head.name }}) <br></pre>
+            {% endfor %}
+        {% endfor %}
+    {% else %}
+        <pre>  |_{{ mega_fac.name }} ({{ mega_fac.id }}, {{ mega_fac.head.name }}) <br></pre>
+        {% for fac in mega_fac.faculties %}
+            <pre>     |_{{ fac.name }} ({{ fac.id }}, {{ fac.head.name }}) <br></pre>
+            {% for cafedra in fac.cathedr %}
+                <pre>     | |_{{ cafedra.name }} ({{ cafedra.id }}, {{ cafedra.head.name }}) <br></pre>
+            {% endfor %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+</body>
+</html>
