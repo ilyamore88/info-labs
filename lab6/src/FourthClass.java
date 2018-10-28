@@ -53,5 +53,27 @@ public class FourthClass {
         }
         x1 = 0;
         System.out.println();
+
+        System.out.println("x1\tx2\tx3\t\tf(x1 && x2 || !x3)");
+        x1 = 0;
+        x2 = 0;
+        x3 = 0;
+        do {
+            do {
+                do {
+                    boolean b1 = x1 == 1;
+                    boolean b2 = x2 == 1;
+                    boolean b3 = x3 == 1;
+                    System.out.println(x1 + "\t" + x2 + "\t" + x3 + "\t\t" + (b1 && b2 || !b3));
+                    x3++;
+                } while (x3 < 2);
+                x3 = 0;
+                x2++;
+            } while (x2 < 2);
+            x2 = 0;
+            x1++;
+        } while (x1 < 2);
+        x1 = 0;
+        System.out.println();
     }
 }
