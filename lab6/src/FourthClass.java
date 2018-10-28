@@ -75,5 +75,14 @@ public class FourthClass {
         } while (x1 < 2);
         x1 = 0;
         System.out.println();
+
+        for (int i = 0; i < 130; i++) {
+            if (i == 23 * 3) {
+                break;
+            }
+            if (i % 7 == 0) {
+                System.out.print(i + " ");
+            }
+        }
     }
 }
