@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70e6672c-3da0-49c7-9dbb-549ad499c031" name="Default Changelist" comment="Add lab7:">
-      <change afterPath="$PROJECT_DIR$/src/StaticCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StaticContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OverloadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Plant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,23 +23,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1206" />
+          <entry key="java" value="1661" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1206" />
+          <entry key="JAVA" value="1661" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
@@ -51,23 +52,25 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StaticContainer.java">
+        <entry file="file://$PROJECT_DIR$/src/Plant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            <state relative-caret-position="391">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding>
-                <element signature="e#91#92#0" expanded="true" />
-                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/StaticCheck.java">
+        <entry file="file://$PROJECT_DIR$/src/OverloadExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+            <state relative-caret-position="102">
+              <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -95,6 +98,8 @@
         <option value="$PROJECT_DIR$/src/StaticExample.java" />
         <option value="$PROJECT_DIR$/src/StaticCheck.java" />
         <option value="$PROJECT_DIR$/src/StaticContainer.java" />
+        <option value="$PROJECT_DIR$/src/Plant.java" />
+        <option value="$PROJECT_DIR$/src/OverloadExample.java" />
       </list>
     </option>
   </component>
@@ -140,7 +145,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541108884481" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541109615921" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -156,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StaticCheck">
+  <component name="RunManager" selected="Application.OverloadExample">
     <configuration name="AccessExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AccessExample" />
       <module name="lab7" />
@@ -166,6 +171,13 @@
     </configuration>
     <configuration name="MainForSpy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainForSpy" />
+      <module name="lab7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OverloadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OverloadExample" />
       <module name="lab7" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,9 +202,11 @@
       <item itemvalue="Application.MainForSpy" />
       <item itemvalue="Application.StaticExample" />
       <item itemvalue="Application.StaticCheck" />
+      <item itemvalue="Application.OverloadExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OverloadExample" />
         <item itemvalue="Application.StaticCheck" />
         <item itemvalue="Application.StaticExample" />
         <item itemvalue="Application.MainForSpy" />
@@ -210,12 +224,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541106534042</updated>
-      <workItem from="1541106540536" duration="2297000" />
+      <workItem from="1541106540536" duration="2986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2297000" />
+    <option name="totallyTimeSpent" value="2986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="814" height="907" extended-state="0" />
@@ -235,7 +249,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32988358" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32988358" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -328,7 +342,7 @@
     <entry file="file://$PROJECT_DIR$/src/StaticContainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
           <folding>
             <element signature="e#91#92#0" expanded="true" />
             <element signature="e#119#120#0" expanded="true" />
@@ -338,8 +352,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StaticCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Plant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OverloadExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
         </state>
       </provider>
     </entry>
