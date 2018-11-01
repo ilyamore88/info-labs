@@ -1,6 +1,6 @@
 public class TowerOfHanoi {
     static Tower[] towers = new Tower[3];
-    static int n = 5;
+    static int n = 3;
 
     public static void main(String[] args) {
         towers[0] = new Tower(n, n);
