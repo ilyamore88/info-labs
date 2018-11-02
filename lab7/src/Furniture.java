@@ -12,6 +12,6 @@ public class Furniture {
 
     public void print() {
         System.out.println("Furniture: ");
-        System.out.println("material: " + this.material + "; age: " + this.age);
+        System.out.println("material: " + this.material + "; age: " + this.age + ";");
     }
 }

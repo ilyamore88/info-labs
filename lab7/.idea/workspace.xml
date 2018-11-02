@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70e6672c-3da0-49c7-9dbb-549ad499c031" name="Default Changelist" comment="Add lab7:">
-      <change afterPath="$PROJECT_DIR$/src/Chair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Furniture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InheritanceExample.java" afterDir="false" />
-    </list>
+    <list default="true" id="70e6672c-3da0-49c7-9dbb-549ad499c031" name="Default Changelist" comment="Add lab7:" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +151,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541168987217" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541176059709" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -235,12 +231,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541106534042</updated>
       <workItem from="1541106540536" duration="3362000" />
-      <workItem from="1541166230647" duration="2388000" />
+      <workItem from="1541166230647" duration="2987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5750000" />
+    <option name="totallyTimeSpent" value="6349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="814" height="907" extended-state="0" />
@@ -255,7 +251,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32988358" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32988358" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

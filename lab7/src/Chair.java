@@ -11,6 +11,11 @@ public class Chair extends Furniture {
         System.out.println("from Furniture: ");
         super.print();
         System.out.println("Chair: ");
-        System.out.println("material: " + this.material + "; age: " + this.age + "; color: " + this.color);
+        System.out.println("material: " + this.material + "; age: " + this.age + "; color: " + this.color + ";");
+    }
+
+    @Override
+    public String toString() {
+        return ("material: " + this.material + "; age: " + this.age + "; color: " + this.color + ";");
     }
 }

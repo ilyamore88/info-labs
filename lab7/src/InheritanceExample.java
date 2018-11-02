@@ -4,5 +4,6 @@ public class InheritanceExample {
         furniture.print();
         Chair chair = new Chair("aluminum", 1.3, "beige");
         chair.print();
+        System.out.println(chair.toString());
     }
 }
