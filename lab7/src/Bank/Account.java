@@ -18,7 +18,7 @@ public class Account {
         System.out.println("Holder name: " + Account.holderName);
     }
 
-    public void printSaves() {
+    public void printSavings() {
     }
 
     public void transferToAccount(Account toAccount, double howMuch) {
@@ -32,8 +32,8 @@ public class Account {
                 toAccount.savings = toAccount.limit;
                 System.out.println("Превышен лимит! Непереведённые деньги возвращены на счёт.");
             }
-            this.printSaves();
-            toAccount.printSaves();
+            this.printSavings();
+            toAccount.printSavings();
         }
     }
 
@@ -59,11 +59,25 @@ public class Account {
             System.out.println("Сдача (" + (this.savings + howMuch - this.limit) + ") будет возвращена после операции");
         }
         this.savings = (this.savings + howMuch <= this.limit) ? this.savings + howMuch : this.limit;    //Тернальный оператор (Просто почему бы и нет)
-        this.printSaves();
-    }
+        this.printSavings();
+    }   //Добавление денег на счёт
 
     static void addMoney(Account toAccount, double howMuch) {
         toAccount.addMoney(howMuch);
+    }
+
+    public void takeCash(double howMuch) {
+        if (this.savings < howMuch) {
+            System.out.println("Error!");
+        } else {
+            this.savings -= howMuch;
+            System.out.println("You take " + howMuch + " in cash");
+            this.printSavings();
+        }
+    }   //Снятие денег
+
+    static void takeCash(Account fromAccount, double howMuch) {
+        fromAccount.takeCash(howMuch);
     }
 
     public static void setHolderName(String holderName) {

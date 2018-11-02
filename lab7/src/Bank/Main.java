@@ -12,6 +12,9 @@ public class Main {
         accUsd.transferToAccount(accRub, 100);
         accRub.addMoney(5000);
         Account.transferToAccount(accByn, accUsd, 200);
-        Account.addMoney(accByn,9000.5);
+        Account.addMoney(accByn, 9000.5);
+
+        accUsd.takeCash(250);
+        Account.takeCash(accByn, 1200);
     }
 }

@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70e6672c-3da0-49c7-9dbb-549ad499c031" name="Default Changelist" comment="Add lab7:">
-      <change afterPath="$PROJECT_DIR$/src/Bank/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bank/AccountBYN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bank/AccountRUB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bank/AccountUSD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bank/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank/AccountBYN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/AccountBYN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank/AccountRUB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/AccountRUB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank/AccountUSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/AccountUSD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,13 +37,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4378" />
+          <entry key="java" value="4632" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4378" />
+          <entry key="JAVA" value="4632" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
@@ -59,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Bank/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="289">
+              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -68,14 +67,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bank/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+            <state relative-caret-position="-323">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
               <folding>
                 <element signature="e#466#467#0" expanded="true" />
                 <element signature="e#538#539#0" expanded="true" />
                 <element signature="method#transferToAccount#1;class#Account#0" />
                 <element signature="method#currencyExchange#0;class#Account#0" />
                 <element signature="method#addMoney#0;class#Account#0" />
+                <element signature="e#2826#2827#0" expanded="true" />
+                <element signature="e#2873#2874#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,7 +189,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541193572413" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541194517075" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -274,12 +275,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541106534042</updated>
       <workItem from="1541106540536" duration="3362000" />
-      <workItem from="1541166230647" duration="9909000" />
+      <workItem from="1541166230647" duration="10850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13271000" />
+    <option name="totallyTimeSpent" value="14212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
@@ -450,17 +451,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bank/AccountUSD.java">
+    <entry file="file://$PROJECT_DIR$/src/Bank/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bank/AccountRUB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
+        <state relative-caret-position="-323">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="method#transferToAccount#1;class#Account#0" />
+            <element signature="method#currencyExchange#0;class#Account#0" />
+            <element signature="method#addMoney#0;class#Account#0" />
+            <element signature="e#2826#2827#0" expanded="true" />
+            <element signature="e#2873#2874#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -471,24 +474,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bank/Account.java">
+    <entry file="file://$PROJECT_DIR$/src/Bank/AccountRUB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
-          <folding>
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="method#transferToAccount#1;class#Account#0" />
-            <element signature="method#currencyExchange#0;class#Account#0" />
-            <element signature="method#addMoney#0;class#Account#0" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bank/AccountUSD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bank/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="289">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>

@@ -15,8 +15,8 @@ public class AccountBYN extends Account {
     }
 
     @Override
-    public void printSaves() {
-        super.printSaves();
+    public void printSavings() {
+        super.printSavings();
         System.out.println("Current balance on BYN account is " + this.savings + " BYN");
     }
 }

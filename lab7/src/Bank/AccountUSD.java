@@ -15,8 +15,8 @@ public class AccountUSD extends Account {
     }
 
     @Override
-    public void printSaves() {
-        super.printSaves();
+    public void printSavings() {
+        super.printSavings();
         System.out.println("Current balance on USD account is " + this.savings + " USD");
     }
 }

@@ -15,8 +15,8 @@ public class AccountRUB extends Account {
     }
 
     @Override
-    public void printSaves() {
-        super.printSaves();
+    public void printSavings() {
+        super.printSavings();
         System.out.println("Current balance on RUB account is " + this.savings + " RUB");
     }
 }
