@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -33,6 +34,13 @@ public class ListCheck {
         }
     }
 
+    static void printListWithIterator(List<Device> deviceList) {
+        Iterator<Device> iterator = deviceList.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next().getInfo());
+        }
+    }
+
     public static void main(String[] args) {
         List<Device> deviceList = new ArrayList<>();
         List<Device> linkedDeviceList = new LinkedList<>();
@@ -46,5 +54,6 @@ public class ListCheck {
         checkElement(deviceList, device, 7);
         device = linkedDeviceList.get(18);
         checkElement(linkedDeviceList, device, 9);
+        printListWithIterator(deviceList);
     }
 }
