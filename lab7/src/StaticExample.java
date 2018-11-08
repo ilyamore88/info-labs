@@ -11,6 +11,6 @@ public class StaticExample {
 
         Triangle t1 = new Triangle(3);
         Triangle t2 = new Triangle(4);
-        Triangle.chackTriangles(t1, t2);
+        Triangle.checkTriangles(t1, t2);
     }
 }

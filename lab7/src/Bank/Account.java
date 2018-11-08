@@ -83,4 +83,8 @@ public class Account {
     public static void setHolderName(String holderName) {
         Account.holderName = holderName;
     }
+
+    void methodExample() {
+
+    }
 }
