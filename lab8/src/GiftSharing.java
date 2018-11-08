@@ -2,6 +2,22 @@ abstract class Gift {
     public abstract void buy();
 
     public abstract void give(String name);
+
+    public void example() {
+
+    }
+}
+
+interface Example {
+    String ex = "123";
+    void example();
+}
+
+class ExampleClass implements Example {
+    @Override
+    public void example() {
+
+    }
 }
 
 class Postcard extends Gift {
