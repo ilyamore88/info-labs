@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e9a23a-5cba-4afa-bfb2-0f68fe43b768" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SetCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -26,22 +26,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1860" />
+          <entry key="java" value="3875" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1860" />
+          <entry key="JAVA" value="3874" />
+          <entry key="RegExp" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -67,11 +68,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SetExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="167" selection-start-line="19" selection-start-column="167" selection-end-line="19" selection-end-column="167" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SetCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="53" column="146" selection-start-line="53" selection-start-column="146" selection-end-line="53" selection-end-column="146" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1674#1675#0" expanded="true" />
+                <element signature="e#1738#1739#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/IteratorExample.java" />
         <option value="$PROJECT_DIR$/src/ListCheck.java" />
         <option value="$PROJECT_DIR$/src/SetExample.java" />
+        <option value="$PROJECT_DIR$/src/SetCheck.java" />
       </list>
     </option>
   </component>
@@ -161,7 +177,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/ИТМО/1 семестр/Информатика/Лабораторные работы/info-labs/lab9/src/IteratorExample.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541784825792" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541791948533" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -177,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SetExample">
+  <component name="RunManager" selected="Application.SetCheck">
     <configuration name="IteratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IteratorExample" />
       <module name="lab9" />
@@ -199,6 +215,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SetCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetCheck" />
+      <module name="lab9" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SetExample" />
       <module name="lab9" />
@@ -211,9 +234,11 @@
       <item itemvalue="Application.ListCheck" />
       <item itemvalue="Application.IteratorExample" />
       <item itemvalue="Application.SetExample" />
+      <item itemvalue="Application.SetCheck" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetCheck" />
         <item itemvalue="Application.SetExample" />
         <item itemvalue="Application.ListCheck" />
         <item itemvalue="Application.IteratorExample" />
@@ -233,12 +258,12 @@
       <updated>1541610623382</updated>
       <workItem from="1541610628556" duration="4841000" />
       <workItem from="1541655392696" duration="22000" />
-      <workItem from="1541783060830" duration="1762000" />
+      <workItem from="1541783060830" duration="8316000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6625000" />
+    <option name="totallyTimeSpent" value="13179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="814" height="907" extended-state="0" />
@@ -254,7 +279,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3260026" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39974126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -319,6 +344,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="167" selection-start-line="19" selection-start-column="167" selection-end-line="19" selection-end-column="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SetCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="53" column="146" selection-start-line="53" selection-start-column="146" selection-end-line="53" selection-end-column="146" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1674#1675#0" expanded="true" />
+            <element signature="e#1738#1739#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
