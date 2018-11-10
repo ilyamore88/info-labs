@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e9a23a-5cba-4afa-bfb2-0f68fe43b768" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MapCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,22 +27,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="13" />
+          <entry key="java" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4446" />
+          <entry key="java" value="5857" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4445" />
+          <entry key="JAVA" value="5856" />
           <entry key="RegExp" value="1" />
         </counts>
       </usages-collector>
@@ -65,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="104" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="104" />
+            <state relative-caret-position="136">
+              <caret line="8" column="92" selection-start-line="8" selection-start-column="92" selection-end-line="8" selection-end-column="92" />
               <folding>
                 <element signature="e#196#197#0" expanded="true" />
                 <element signature="e#227#228#0" expanded="true" />
@@ -88,6 +89,15 @@
                 <element signature="e#759#760#0" expanded="true" />
                 <element signature="e#799#800#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MapCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -115,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/SetCheck.java" />
         <option value="$PROJECT_DIR$/src/MapExample.java" />
         <option value="$PROJECT_DIR$/src/Person.java" />
+        <option value="$PROJECT_DIR$/src/MapCheck.java" />
       </list>
     </option>
   </component>
@@ -124,7 +135,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="814" />
     <option name="height" value="907" />
@@ -159,7 +170,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/ИТМО/1 семестр/Информатика/Лабораторные работы/info-labs/lab9/src/IteratorExample.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541883064924" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541888494360" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -175,16 +186,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MapExample">
-    <configuration name="IteratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IteratorExample" />
+  <component name="RunManager" selected="Application.MapCheck">
+    <configuration name="ListCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListCheck" />
       <module name="lab9" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListCheck" />
+    <configuration name="MapCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapCheck" />
       <module name="lab9" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,18 +224,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ListCheck" />
-      <item itemvalue="Application.IteratorExample" />
       <item itemvalue="Application.SetExample" />
       <item itemvalue="Application.SetCheck" />
       <item itemvalue="Application.MapExample" />
+      <item itemvalue="Application.MapCheck" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapCheck" />
         <item itemvalue="Application.MapExample" />
         <item itemvalue="Application.SetCheck" />
         <item itemvalue="Application.SetExample" />
         <item itemvalue="Application.ListCheck" />
-        <item itemvalue="Application.IteratorExample" />
       </list>
     </recent_temporary>
   </component>
@@ -241,15 +252,15 @@
       <workItem from="1541610628556" duration="4841000" />
       <workItem from="1541655392696" duration="22000" />
       <workItem from="1541783060830" duration="9922000" />
-      <workItem from="1541881035036" duration="1240000" />
+      <workItem from="1541881035036" duration="6548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16025000" />
+    <option name="totallyTimeSpent" value="21333000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="814" height="907" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.37798408" />
@@ -261,7 +272,7 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32891247" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3260026" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32480818" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39974126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -358,8 +369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="104" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="104" />
+        <state relative-caret-position="136">
+          <caret line="8" column="92" selection-start-line="8" selection-start-column="92" selection-end-line="8" selection-end-column="92" />
           <folding>
             <element signature="e#196#197#0" expanded="true" />
             <element signature="e#227#228#0" expanded="true" />
@@ -378,6 +389,13 @@
             <element signature="e#759#760#0" expanded="true" />
             <element signature="e#799#800#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MapCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
         </state>
       </provider>
     </entry>
