@@ -6,6 +6,13 @@ public class Person {
     private String middlename;
     private Calendar birthday;
 
+    public Person(String lastname, String firstname, String middlename, Calendar birthday) {
+        this.lastname = lastname;
+        this.firstname = firstname;
+        this.middlename = middlename;
+        this.birthday = birthday;
+    }
+
     public String getFIO() {
         return (this.lastname + " " + this.firstname.charAt(0) + "." + this.middlename.charAt(0) + ".");
     }
