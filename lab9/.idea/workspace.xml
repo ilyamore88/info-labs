@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e9a23a-5cba-4afa-bfb2-0f68fe43b768" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Research.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Research.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,12 +15,13 @@
     <session id="-1496789238">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -36,12 +36,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="10559" />
+          <entry key="java" value="11320" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10558" />
+          <entry key="JAVA" value="11319" />
           <entry key="RegExp" value="1" />
         </counts>
       </usages-collector>
@@ -77,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MapCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-374">
+            <state relative-caret-position="136">
               <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
             </state>
           </provider>
@@ -86,24 +86,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Research.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-235">
-              <caret line="276" column="95" selection-start-line="276" selection-start-column="95" selection-end-line="276" selection-end-column="95" />
+            <state relative-caret-position="510">
+              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#researchList10#0;class#Research#0" />
-                <element signature="method#researchList100#0;class#Research#0" />
-                <element signature="method#researchList1000#0;class#Research#0" />
-                <element signature="method#researchList10000#0;class#Research#0" />
                 <element signature="method#researchSet10#0;class#Research#0" />
-                <element signature="method#researchSet100#0;class#Research#0" />
-                <element signature="method#researchSet1000#0;class#Research#0" />
-                <element signature="method#researchSet10000#0;class#Research#0" />
                 <element signature="method#researchMap10#0;class#Research#0" />
-                <element signature="method#researchMap100#0;class#Research#0" />
-                <element signature="method#researchMap1000#0;class#Research#0" />
-                <element signature="method#researchMap10000#0;class#Research#0" />
                 <element signature="class#Sample#0" />
-                <element signature="e#27570#27571#0" expanded="true" />
-                <element signature="e#27595#27596#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,7 +168,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/ИТМО/1 семестр/Информатика/Лабораторные работы/info-labs/lab9/src/IteratorExample.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541970417659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542145004280" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -262,15 +252,15 @@
       <workItem from="1541783060830" duration="9922000" />
       <workItem from="1541881035036" duration="7641000" />
       <workItem from="1541940693747" duration="21963000" />
+      <workItem from="1542142551735" duration="2453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44389000" />
+    <option name="totallyTimeSpent" value="46842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2917772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -281,7 +271,7 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32891247" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19820972" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34398976" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39974126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -320,9 +310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -337,11 +324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="53" column="146" selection-start-line="53" selection-start-column="146" selection-end-line="53" selection-end-column="146" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1674#1675#0" expanded="true" />
-            <element signature="e#1738#1739#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -385,31 +367,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MapCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
+        <state relative-caret-position="136">
           <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Research.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-235">
-          <caret line="276" column="95" selection-start-line="276" selection-start-column="95" selection-end-line="276" selection-end-column="95" />
+        <state relative-caret-position="510">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#researchList10#0;class#Research#0" />
-            <element signature="method#researchList100#0;class#Research#0" />
-            <element signature="method#researchList1000#0;class#Research#0" />
-            <element signature="method#researchList10000#0;class#Research#0" />
             <element signature="method#researchSet10#0;class#Research#0" />
-            <element signature="method#researchSet100#0;class#Research#0" />
-            <element signature="method#researchSet1000#0;class#Research#0" />
-            <element signature="method#researchSet10000#0;class#Research#0" />
             <element signature="method#researchMap10#0;class#Research#0" />
-            <element signature="method#researchMap100#0;class#Research#0" />
-            <element signature="method#researchMap1000#0;class#Research#0" />
-            <element signature="method#researchMap10000#0;class#Research#0" />
             <element signature="class#Sample#0" />
-            <element signature="e#27570#27571#0" expanded="true" />
-            <element signature="e#27595#27596#0" expanded="true" />
           </folding>
         </state>
       </provider>
