@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abbd76ce-455b-4e32-907a-da78c71b6e24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Osi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/osi.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab10/FilesExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab10/FilesExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab10/fileOut_01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab10/fileOut_01.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab10/fileOut_02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab10/fileOut_02.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FilesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FilesExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab9/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,38 +25,56 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="4" />
           <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="4" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1664" />
+          <entry key="java" value="2276" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1664" />
+          <entry key="JAVA" value="2276" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Osi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+            <state relative-caret-position="48">
+              <caret line="48" column="128" selection-start-line="48" selection-start-column="128" selection-end-line="48" selection-end-column="128" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Calculation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThreadExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -97,6 +110,8 @@
         <option value="$PROJECT_DIR$/src/osi.txt" />
         <option value="$PROJECT_DIR$/src/FilesExample.java" />
         <option value="$PROJECT_DIR$/src/Osi.java" />
+        <option value="$PROJECT_DIR$/src/ThreadExample.java" />
+        <option value="$PROJECT_DIR$/src/Calculation.java" />
       </list>
     </option>
   </component>
@@ -140,7 +155,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542397291673" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542398062717" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -156,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Osi">
+  <component name="RunManager" selected="Application.ThreadExample">
     <configuration name="FilesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FilesExample" />
       <module name="lab10" />
@@ -171,12 +186,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadExample" />
+      <module name="lab10" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.FilesExample" />
       <item itemvalue="Application.Osi" />
+      <item itemvalue="Application.ThreadExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadExample" />
         <item itemvalue="Application.Osi" />
         <item itemvalue="Application.FilesExample" />
       </list>
@@ -193,12 +217,12 @@
       <option name="presentableId" value="Default" />
       <updated>1542217134839</updated>
       <workItem from="1542217140712" duration="3181000" />
-      <workItem from="1542393820619" duration="1977000" />
+      <workItem from="1542393820619" duration="3103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5158000" />
+    <option name="totallyTimeSpent" value="6284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="814" height="907" extended-state="0" />
@@ -213,7 +237,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32988358" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32988358" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39974126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -280,11 +304,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Osi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        <state relative-caret-position="48">
+          <caret line="48" column="128" selection-start-line="48" selection-start-column="128" selection-end-line="48" selection-end-column="128" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreadExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
