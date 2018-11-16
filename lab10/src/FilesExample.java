@@ -8,7 +8,7 @@ import java.util.List;
 import static java.nio.file.StandardOpenOption.APPEND;
 
 public class FilesExample {
-    private static void inputStramCopy(String path, String fileInName, String fileOutName) {
+    private static void inputStreamCopy(String path, String fileInName, String fileOutName) {
         FileInputStream in;
         FileOutputStream out;
         try {
@@ -63,7 +63,7 @@ public class FilesExample {
             e.printStackTrace();
         }
         System.out.println(students);
-        inputStramCopy(path,"fileIn.txt", "fileOut_01.txt");
+        inputStreamCopy(path,"fileIn.txt", "fileOut_01.txt");
         bufferedReaderCopy(path, "fileIn.txt", "fileOut_02.txt");
     }
 }
